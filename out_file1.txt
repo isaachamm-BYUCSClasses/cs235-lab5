@@ -1,0 +1,33 @@
+createArray 5 True
+addToArray 1 True
+addToArray 2 True
+addToArray 3 True
+addToArray 4 True
+addToArray 5 True
+getArray
+ 1,
+clear 
+getArray
+ 
+getSize 5
+createArray 5 True
+getArray
+ 
+getSize 5
+addToArray -5 True
+getSize 5
+addToArray -4 True
+getSize 5
+getArray
+ -5,
+addToArray -3 True
+addToArray -2 True
+getSize 5
+addToArray -1 True
+getSize 5
+getArray
+ -5,
+addToArray 6 True
+getSize 5
+getArray
+ -5,

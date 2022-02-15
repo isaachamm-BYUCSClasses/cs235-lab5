@@ -6,15 +6,17 @@
 #define LAB5_QS_H
 
 #include "QSInterface.h"
+#include <vector>
 
 class QS: public QSInterface {
 
 private:
-    int array[5];
-    int arraySize;
+    vector<int> intVector;
+    int vectorSize;
+    int spotInVector;
 
 public:
-    QS() {};
+    QS() {intVector;};
     ~QS() {};
     void sortAll();
     int medianOfThree(int left, int right);
